@@ -1,0 +1,15 @@
+/*------------ 
+    fonts
+------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+
+/* -----------
+    colors
+------------ */
+
+:root {
+    --body-color:#FFFFFF;
+    --first-section-color: #00529F;
+    --button-color: #FEBE10;
+}
