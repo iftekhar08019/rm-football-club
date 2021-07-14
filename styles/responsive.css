@@ -33,10 +33,10 @@
         margin-left: 10px;
         text-decoration: none;
         color: var(--body-color);
-        font-size: 8px;
+        font-size: 20px;
         font-weight: 500;
         background-color: var(--button-color);
-        padding: 10px 24px 10px 24px;
+        padding: 15px 32px 15px 32px;
     }
     .main-img{
         width: 100%;
@@ -102,7 +102,8 @@
         padding-bottom: 50px;
     }
     .store-text h1{
-        text-align: center;
+        padding-left: 10px;
+        text-align: left;
         color: var(--first-section-color);
         font-size: 30px;
         font-weight: bold;
@@ -110,14 +111,13 @@
         margin-bottom: 37px;
     }
     .store-text a{
-        position: relative;
-        left: 35%;
+        margin-left: 10px;
         text-decoration: none;
         color: var(--body-color);
-        font-size: 8px;
+        font-size: 20px;
         font-weight: 500;
         background-color: var(--button-color);
-        padding: 10px 24px 10px 24px;
+        padding: 15px 32px 15px 32px;
     }
     
     .jersey-img{
