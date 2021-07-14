@@ -21,7 +21,8 @@
         padding-bottom: 50px;
     }
     .first-section-text h1{
-        text-align: center;
+        padding-left: 10px;
+        text-align: left;
         color: var(--body-color);
         font-size: 30px;
         font-weight: bold;
@@ -29,8 +30,7 @@
         margin-bottom: 37px;
     }
     .first-section-text a{
-        position: relative;
-        left: 35%;
+        margin-left: 10px;
         text-decoration: none;
         color: var(--body-color);
         font-size: 8px;
@@ -48,7 +48,7 @@
      All Players CSS
      ---------------- */
 .all-players{
-    margin-top: 70px;
+    margin-top: 50px;
     padding: 15px 15px 15px 15px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -67,6 +67,12 @@
     display: grid;
     grid-template-columns: repeat(1,1fr);
     grid-column-gap: 50px;
+}
+.first-five h2{
+    text-align: center;
+}
+.last-four h2{
+    text-align: center;
 }
 .last-four{
     display: grid;

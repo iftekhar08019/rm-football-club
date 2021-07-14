@@ -139,7 +139,7 @@ body{
 }
 hr{
     height:2px;
-    width:50%;
+    width: 80%;
     border-width:0;
     color: var(--button-color);
     background-color:var(--button-color);
