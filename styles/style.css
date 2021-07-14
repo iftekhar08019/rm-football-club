@@ -6,6 +6,11 @@
         transform: translateY(0px);
     }
 }
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 body{
     background-color: var(--body-color);
@@ -61,12 +66,58 @@ body{
 .all-players{
     margin-top: 70px;
     padding: 15px 15px 15px 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
 }
 .player-profile{
     width: 330px;
-    height: 474px;
+    height: 500px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding: 15px 15px 15px 15px;
 }
 .player-profile img{
     height: 300px;
     width: 256px;
+    position: relative;
+    left: 11%;
+}
+.player-profile p{
+    font-weight:400;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.footer-style{
+    padding-top: 158px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.logo-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-name img{
+    width: 100px;
+    height: 100px;
+    padding-right: 20px;
+    
+}
+.logo-name h1{
+    font-family: 'Niconne', cursive;
+    font-size: 72px;
+    color: var(--first-section-color);
+}
+
+.social-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-link a i{
+    font-size: 32px;
+    padding: 14px;
+    color: gray;
 }
